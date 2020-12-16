@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/final-project/static/css/main.d0264091.chunk.css",
-    "main.js": "/final-project/static/js/main.8ce0e43b.chunk.js",
-    "main.js.map": "/final-project/static/js/main.8ce0e43b.chunk.js.map",
-    "runtime-main.js": "/final-project/static/js/runtime-main.d01b860b.js",
-    "runtime-main.js.map": "/final-project/static/js/runtime-main.d01b860b.js.map",
-    "static/js/2.16cf33b5.chunk.js": "/final-project/static/js/2.16cf33b5.chunk.js",
-    "static/js/2.16cf33b5.chunk.js.map": "/final-project/static/js/2.16cf33b5.chunk.js.map",
-    "index.html": "/final-project/index.html",
-    "static/css/main.d0264091.chunk.css.map": "/final-project/static/css/main.d0264091.chunk.css.map",
-    "static/js/2.16cf33b5.chunk.js.LICENSE.txt": "/final-project/static/js/2.16cf33b5.chunk.js.LICENSE.txt",
-    "static/media/bts_logo.0d54d13b.png": "/final-project/static/media/bts_logo.0d54d13b.png",
-    "static/media/video-1.59e75226.mp4": "/final-project/static/media/video-1.59e75226.mp4"
+    "main.css": "/Final-Project-Library-web-/static/css/main.d0264091.chunk.css",
+    "main.js": "/Final-Project-Library-web-/static/js/main.8ce0e43b.chunk.js",
+    "main.js.map": "/Final-Project-Library-web-/static/js/main.8ce0e43b.chunk.js.map",
+    "runtime-main.js": "/Final-Project-Library-web-/static/js/runtime-main.e142cd9e.js",
+    "runtime-main.js.map": "/Final-Project-Library-web-/static/js/runtime-main.e142cd9e.js.map",
+    "static/js/2.16cf33b5.chunk.js": "/Final-Project-Library-web-/static/js/2.16cf33b5.chunk.js",
+    "static/js/2.16cf33b5.chunk.js.map": "/Final-Project-Library-web-/static/js/2.16cf33b5.chunk.js.map",
+    "index.html": "/Final-Project-Library-web-/index.html",
+    "static/css/main.d0264091.chunk.css.map": "/Final-Project-Library-web-/static/css/main.d0264091.chunk.css.map",
+    "static/js/2.16cf33b5.chunk.js.LICENSE.txt": "/Final-Project-Library-web-/static/js/2.16cf33b5.chunk.js.LICENSE.txt",
+    "static/media/bts_logo.0d54d13b.png": "/Final-Project-Library-web-/static/media/bts_logo.0d54d13b.png",
+    "static/media/video-1.59e75226.mp4": "/Final-Project-Library-web-/static/media/video-1.59e75226.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.d01b860b.js",
+    "static/js/runtime-main.e142cd9e.js",
     "static/js/2.16cf33b5.chunk.js",
     "static/css/main.d0264091.chunk.css",
     "static/js/main.8ce0e43b.chunk.js"
