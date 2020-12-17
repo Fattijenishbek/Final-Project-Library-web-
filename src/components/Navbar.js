@@ -23,18 +23,15 @@ function Navbar(){
         showButton()
     },[]);
 
-    // useEffect(()=> {
-    //     showButton()
-    // }, []);
-
     window.addEventListener('resize', showButton);
 
     return(
         <div>
             <nav className='navbar'>
                 <div className='navbar-container'>
+                    <Link to='/'><i className="navbar-brand mr-auto" href="#"><img src={bts_logo} width="60" height="60" /></i></Link>
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                            BTS <i className="navbar-brand mr-auto" href="#"><img src={bts_logo} width="25" height="25" /></i>
+                            BTS 
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
