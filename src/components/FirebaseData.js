@@ -1,5 +1,6 @@
 import React from 'react';
 import {db, auth} from './Firebase'
+import './FirebaseData.css';
 
 class FirebaseData extends React.Component{
     state = {
@@ -24,10 +25,11 @@ class FirebaseData extends React.Component{
     tableMethod(){
         const booklist=(
             <div className="container">
+                <table id='bookstab'>
                 <thead className='thead-dark'>
                     <tr>
                         <th>ID</th>
-                        <th>Name</th>
+                        <th>Name</th> 
                         <th>First Author</th>
                         <th>Second Author</th>
                         <th>Total Amount</th>
@@ -47,6 +49,7 @@ class FirebaseData extends React.Component{
                 </tr>
                 )}
             </tbody> 
+            </table>
             </div>)
         return booklist
     }

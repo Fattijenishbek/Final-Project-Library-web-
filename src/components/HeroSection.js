@@ -9,9 +9,9 @@ import FirebaseData from './FirebaseData';
 function HeroSection(){
     return(
         <div className='hero-container'>
-            {/* <video autoPlay loop muted > 
+            <video autoPlay loop muted > 
                 <source src={Video} type="video/mp4" />
-            </video> */}
+            </video>
             <h1>ADVENTURE AWAITS</h1>
             <p>LET'S ENJOY!</p>
             <div className="hero-btns">
