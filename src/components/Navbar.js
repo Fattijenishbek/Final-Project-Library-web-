@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
-import bts_logo from '../bts_logo.png';
+import image_logo from '../image_logo.png';
 import './Navbar.css';
 import {Button} from './Button';
 
@@ -29,9 +29,9 @@ function Navbar(){
         <div>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/'><i className="navbar-brand mr-auto" href="#"><img src={bts_logo} width="60" height="60" /></i></Link>
+                    <Link to='/'><i className="navbar-brand mr-auto" href="#"><img src={image_logo} width="60" height="60" /></i></Link>
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                            BTS 
+                            AIU 
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
