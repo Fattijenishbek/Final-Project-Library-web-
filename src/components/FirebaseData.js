@@ -51,7 +51,7 @@ class FirebaseData extends React.Component{
                     <td>{book.secondAuthor}</td>
                     <td>{book.totalAmount}</td>
                     <td>{book.leftAmount}</td>
-                    <td><Button>Reserve</Button></td>
+                    <td><button className="btn-reserve">Reserve</button></td>
                 </tr>
                 )}
             </tbody> 
