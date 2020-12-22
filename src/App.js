@@ -12,9 +12,9 @@ function App() {
     <Router>
       <Navbar/>
       <Home/>
-      <Switch >
-        <Router exact path='/' component = {Home}></Router>
-      </Switch>
+      {/* <Switch >
+        <Route exact path='/' component = {Home}></Route>
+      </Switch> */}
     </Router>
     </>
   );

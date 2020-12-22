@@ -1,6 +1,7 @@
 import React from 'react';
 import {db, auth} from './Firebase'
 import './FirebaseData.css';
+import {Button} from './Button';
 
 class FirebaseData extends React.Component{
     state = {
@@ -22,6 +23,9 @@ class FirebaseData extends React.Component{
           .catch(error => console.log(error))
     }
 
+
+
+
     tableMethod(){
         const booklist=(
             <div className="container">
@@ -34,6 +38,7 @@ class FirebaseData extends React.Component{
                         <th>Second Author</th>
                         <th>Total Amount</th>
                         <th>Left Amount</th>
+                        <th>Reserve</th>
                     </tr>
                 </thead>            
             <tbody>
@@ -46,6 +51,7 @@ class FirebaseData extends React.Component{
                     <td>{book.secondAuthor}</td>
                     <td>{book.totalAmount}</td>
                     <td>{book.leftAmount}</td>
+                    <td><Button>Reserve</Button></td>
                 </tr>
                 )}
             </tbody> 

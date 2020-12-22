@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Footer.css'
-import bts_logo from '../bts_logo.png';
+import image_logo from '../image_logo.png';
 
 
 function Footer (){
@@ -10,15 +10,15 @@ function Footer (){
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Join the ADVENTURE
+                    Want to get Book Recommendations?
                 </p>
                 <p className='footer-subscription-text'>
-                    You can leave anytime.
+                    You can unsubscribe anytime.
                 </p>
                 <div className='input-areas'>
                     <form>
                         <input type='email' name='email' placeholder='Your Email' className='footer-input' />
-                        <Button buttonStyle='btn--outline'>Subscibe</Button>
+                        <Button buttonStyle='btn--outline'>Send</Button>
                     </form>
                 </div>
             </section>
@@ -60,7 +60,7 @@ function Footer (){
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                        BTS <i href="#"><img src={bts_logo} width="15" height="15" /></i>
+                        AIU <i href="#"><img src={image_logo} width="15" height="15" /></i>
                         </Link>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ function Footer (){
                     <i className='fab fa-linkedin'/>
                 </Link>
             </div>
-            <small className='website-rights'>Army page about 방탄소년단  © 2020</small>
+            <small className='website-rights'>Ala-Too International Unniversity  © 2020</small>
         </div>
     );
 }
