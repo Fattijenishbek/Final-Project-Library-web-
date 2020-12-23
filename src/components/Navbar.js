@@ -46,14 +46,14 @@ function Navbar(){
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/pictures' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="http://alatoo.edu.kg/view/public/gallery/list.xhtml" target={"_blank"} to='/pictures' className='nav-links' onClick={closeMobileMenu}>
                                 Pictures
-                            </Link>
+                            </a>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contacts' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="http://alatoo.edu.kg/view/public/pages/contacts.xhtml;jsessionid=F3JVR0yuKu5qDmVeGGmmR9s7IXdFLS1A6AkIDYMv.unknown-host" target={"_blank"} to='/contacts' className='nav-links' onClick={closeMobileMenu}>
                                 Contacts
-                            </Link>
+                            </a>
                         </li>
                         {/* <li className='nav-item'>
                             <Link to='/bighit' className='nav-links' onClick={closeMobileMenu}>

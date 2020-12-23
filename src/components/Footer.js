@@ -32,7 +32,7 @@ function Footer (){
                         <Link to='/'>Help</Link>
                     </div>
                     <div className='footer-link-items'>
-                        <h2>Contact Us</h2>
+                        <h2 id="contacts">Contact Us</h2>
                         <Link to='/sign-up'>Email</Link>
                         <Link to='/'>Call</Link>
                         <Link to='/'>Address</Link>
