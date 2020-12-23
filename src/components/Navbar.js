@@ -4,7 +4,7 @@ import image_logo from '../image_logo.png';
 import './Navbar.css';
 import {Button} from './Button';
 
-function Navbar(handleLogout){
+function Navbar(){
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
@@ -19,11 +19,9 @@ function Navbar(handleLogout){
         }
     };
 
-
     useEffect(()=> {
         showButton()
     },[]);
-
 
     window.addEventListener('resize', showButton);
 
@@ -63,12 +61,12 @@ function Navbar(handleLogout){
                             </Link>
                         </li> */}
                         <li className='nav-item'>
-                            <a  href="http://alatoo.edu.kg/" target={"_blank"} className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 AIU
-                            </a>
+                            </Link>
                         </li>
                     </ul>
-                     <Button onClick={handleLogout} buttonStyle='btn--outline'><a href="http://alatoo.edu.kg/" target={"_blank"} >AIU</a></Button>
+                    {button && <Button buttonStyle='btn--outline'>AIU</Button>}
                 </div>
             </nav>
         </div>
