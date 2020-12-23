@@ -17,3 +17,9 @@
 
 ### 6) "In my opinion , it is an amazing application.As I am the student of this university , I really liked this library application. It gives us chance to get the book that we are looking forward. And also saves many time to librarians and also to the readers. And we can easily know how many there books, instead of going to look. Totally I really appreciate this work."
 © Nuriza Paishan kyzy COM20
+
+### 7) "Хотелось бы, чтобы в таблице со студентами показывался не весь список, а только тех, кто взял выбранную книгу. А так идея отличная, вот бы она работала и в нашем ВУЗе."
+© Сейдана Асылбекова КРСУ
+
+### 8) "That's gotta be the best project I've ever seen in com19. Comparing what we've been taught and what you've done, I can confidently say that this is very impressive. Of course, it's not too close to real development, but taking into consideration the fact that you're doing custom DBMS for uni, I'm pleasantly surprised with your progress."
+© Arslan Sultanbek uulu COM19
