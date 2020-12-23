@@ -10,7 +10,7 @@
 * Natalia Klimareva COM19-A 
 * Fatima Bekmamatova COM19-A
 
-* Screenshots of Web-Application
+## Screenshots of Web-Application
 
 ![Screenshot from 2020-12-23 07-08-17](https://user-images.githubusercontent.com/57977808/102949485-9ce59c80-44f2-11eb-94c6-a48ab6f574de.png)
 
