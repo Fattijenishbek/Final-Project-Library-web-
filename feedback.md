@@ -8,3 +8,12 @@
 
 ### 3) "Эхх, если бы человечество узнало об этом раньше...жизнь была бы куда лучше"
 © Aitbek Osmonov KSMA
+
+### 4) "As for me, it is a very convenient application, I like the opportunity to reserve books, and not worry that you will not get them. I also think that it will be easier for librarians to keep track of the availability of books in the library and their timely return from students."
+© Nazik Esengulova COM19
+
+### 5) "Nice looking design, cool that I can reserve goods, when should I take them?😆"
+© Mirkhad Chekirbaev COM19
+
+### 6) "In my opinion , it is an amazing application.As I am the student of this university , I really liked this library application. It gives us chance to get the book that we are looking forward. And also saves many time to librarians and also to the readers. And we can easily know how many there books, instead of going to look. Totally I really appreciate this work."
+© Nuriza Paishan kyzy COM20
