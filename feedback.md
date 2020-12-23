@@ -1,6 +1,7 @@
 #  Feedbacks
 
 ## Video FeedBack: https://youtu.be/Pvwqt2GIDzg
+© Beksultan Rahmanov COM19
 
 ## Text Feedbacks:
 
