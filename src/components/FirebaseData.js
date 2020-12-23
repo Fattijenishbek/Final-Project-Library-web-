@@ -3,6 +3,7 @@ import {db, auth} from './Firebase'
 import './FirebaseData.css';
 import {Button} from './Button';
 
+
 class FirebaseData extends React.Component{
     state = {
         books: null
@@ -23,7 +24,9 @@ class FirebaseData extends React.Component{
           .catch(error => console.log(error))
     }
 
-
+    reserve(){
+        alert("Your book reserved!");
+    }
 
 
     tableMethod(){
@@ -44,14 +47,14 @@ class FirebaseData extends React.Component{
             <tbody>
                 {this.state.books &&
                 this.state.books.map((book) => 
-                <tr>
+                <tr className="row">
                     <td key={book.bookID}>{book.bookID}</td>
                     <td>{book.bookName}</td>
                     <td>{book.firstAuthor}</td>
                     <td>{book.secondAuthor}</td>
                     <td>{book.totalAmount}</td>
                     <td>{book.leftAmount}</td>
-                    <td><button className="btn-reserve">Reserve</button></td>
+                    <td><button className="btn-reserve" onClick={this.reserve}>Reserve</button></td>
                 </tr>
                 )}
             </tbody> 
@@ -63,7 +66,6 @@ class FirebaseData extends React.Component{
     render(){
         return(
             <div className='App'>
-                <h1>Data</h1>
                 {this.tableMethod()
                 }
             </div>

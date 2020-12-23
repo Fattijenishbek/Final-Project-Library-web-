@@ -4,7 +4,7 @@ import image_logo from '../image_logo.png';
 import './Navbar.css';
 import {Button} from './Button';
 
-function Navbar(){
+function Navbar(handleLogout){
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
@@ -19,9 +19,11 @@ function Navbar(){
         }
     };
 
+
     useEffect(()=> {
         showButton()
     },[]);
+
 
     window.addEventListener('resize', showButton);
 
@@ -29,10 +31,13 @@ function Navbar(){
         <div>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/'><i className="navbar-brand mr-auto" href="#"><img src={image_logo} width="60" height="60" /></i></Link>
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                            AIU 
-                    </Link>
+                    <a href="http://alatoo.edu.kg/" target={"_blank"} className="navbar-logo" onClick={closeMobileMenu}>
+                            AIU<i className="navbar-brand mr-auto" href="#"><img src={image_logo} width="60" height="60" /></i>
+                            <div className="full-name">
+                                <h5>Ala-Too InternationL University</h5>
+                            </div>
+                    </a>
+                    
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
                     </div>
@@ -58,12 +63,12 @@ function Navbar(){
                             </Link>
                         </li> */}
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <a  href="http://alatoo.edu.kg/" target={"_blank"} className='nav-links-mobile' onClick={closeMobileMenu}>
                                 AIU
-                            </Link>
+                            </a>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>AIU</Button>}
+                     <Button onClick={handleLogout} buttonStyle='btn--outline'><a href="http://alatoo.edu.kg/" target={"_blank"} >AIU</a></Button>
                 </div>
             </nav>
         </div>

@@ -18,7 +18,12 @@ th, td {
    }
 
    .thead-dark{
-       background-color: lightcoral;
+       background-color: #ffd9b3;
+   }
+
+   .row{
+     color: black;
+     font-size: 18px;
    }
 
    .thead-dark th{
@@ -33,4 +38,13 @@ th, td {
     border: none;
     cursor: pointer;
     background-color: lightgreen;
+   }
+
+   @media screen and (max-width: 780px){
+    .container{
+      border: 1px solid black;
+      overflow: scroll;
+      height: 480px;
+      width: 350px;
+     }
    }

@@ -26,33 +26,32 @@ function Footer (){
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>About Company</Link>
-                        <Link to='/'>Investors</Link>
+                        <Link to='/sign-up'>About University</Link>
+                        <Link to='/'>Faculty</Link>
+                        <Link to='/'>Admission</Link>
+                        <Link to='/'>Help</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>About Company</Link>
-                        <Link to='/'>Investors</Link>
+                        <Link to='/sign-up'>Email</Link>
+                        <Link to='/'>Call</Link>
+                        <Link to='/'>Address</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Videos</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>About Company</Link>
-                        <Link to='/'>Investors</Link>
+                        <Link to='/sign-up'>Our Students</Link>
+                        <Link to='/'>Campus</Link>
+                        <Link to='/'>Students' works</Link>
+                        <Link to='/'>Activities</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>About Company</Link>
-                        <Link to='/'>Investors</Link>
+                        <Link to='/sign-up'>Official page</Link>
+                        <Link to='/'>Facebook</Link>
+                        <Link to='/'>Instagram</Link>
+                        <Link to='/'>Twitter</Link>
                     </div>
                 </div>
             </div>
@@ -66,20 +65,24 @@ function Footer (){
                 </div>
             </section>
             <div className='social-icons'>
-                <Link className='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
+                <a href="https://web.facebook.com/ALATOOinternationalUniversity1996/?_rdc=1&_rdr" 
+                className='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
                     <i className='fab fa-facebook-f'/>
-                </Link>
-                <Link className='social-icon-link instagram' to='/' target='_blank' aria-label='Instagram'>
+                </a>
+                <a href="https://www.instagram.com/alatoo.edu.kg/?hl=en"
+                className='social-icon-link instagram' to='/' target='_blank' aria-label='Instagram'>
                     <i className='fab fa-instagram'/>
-                </Link>
-                <Link className='social-icon-link twitter' to='/' target='_blank' aria-label='Twitter'>
+                </a>
+                <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                className='social-icon-link twitter' to='/' target='_blank' aria-label='Twitter'>
                     <i className='fab fa-twitter'/>
-                </Link>
-                <Link className='social-icon-link linkedin' to='/' target='_blank' aria-label='LinkedIn'>
+                </a>
+                <a href="https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react"
+                className='social-icon-link linkedin' to='/' target='_blank' aria-label='LinkedIn'>
                     <i className='fab fa-linkedin'/>
-                </Link>
+                </a>
             </div>
-            <small className='website-rights'>Ala-Too International Unniversity  © 2020</small>
+            <small className='website-rights'>Ala-Too International University  © 2020</small>
         </div>
     );
 }

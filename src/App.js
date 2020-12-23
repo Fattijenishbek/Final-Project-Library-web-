@@ -6,10 +6,11 @@ import Home from './components/pages/Home.js';
 
 import HeroSection from './components/HeroSection';
 
-function App() {
+function App({handleLogout}) {
   return (
     <>
     <Router>
+      <button onClick={handleLogout}>Logout</button>
       <Navbar/>
       <Home/>
       {/* <Switch >

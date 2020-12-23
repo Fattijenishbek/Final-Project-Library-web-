@@ -12,8 +12,8 @@ function HeroSection(){
             <video autoPlay loop muted > 
                 <source src={Video} type="video/mp4" />
             </video>
-            <h1>Books List</h1>
-            <p>LET'S ENJOY!</p>
+            <h1>AIU's Library</h1>
+            <p>Book List</p>
             {/* <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>TO UNIVERSE</Button>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>WATCH VIDEO <i className='far fa-play-circle' /></Button>
