@@ -25,7 +25,7 @@ class FirebaseData extends React.Component{
     }
 
     reserve(){
-        alert("Your book reserved!");
+        alert("Your book has reserved!");
     }
 
 

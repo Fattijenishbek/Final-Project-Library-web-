@@ -78,7 +78,7 @@
 }
 
 .footer-link-items a:hover{
-    color: #7070db;
+    color: #dd1a34;
     transition: 0.1s ease-out;
 }
 
@@ -119,7 +119,7 @@
     margin-bottom: 20px;
 }
 .social-icons a:hover{
-    color: #7070db;
+    color:#dd1a34;
 }
 .social-logo{
     color: #fff;
@@ -133,7 +133,7 @@
     margin-bottom: 16px;
 }
 .social-logo:hover{
-    color: #7070db;
+    color: #dd1a34;
 }
 
 .website-rights{
