@@ -3,7 +3,7 @@
 
 ![alt text](https://upload.wikimedia.org/wikipedia/en/0/07/Ala-Too_International_University_Seal.png)
 
-# [AIU's Library
+# [AIU's Library]
 ## Link to the Web-Application: https://fattijenishbek.github.io/Final-Project-Library-web-/
 
 # The video presentation of web site
