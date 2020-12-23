@@ -24,6 +24,10 @@
 
 ![Screenshot from 2020-12-23 07-25-23](https://user-images.githubusercontent.com/57977808/102949577-d28a8580-44f2-11eb-8fe2-7a6a704616e7.png)
 
+## How it looks on the mobile phone screen:
+
+![alt text](https://github.com/Fattijenishbek/Tutorial/blob/master/2020-12-23_19-58-07.png?raw=true)
+
 ## Requirements for the projects
 *  DataStorage( Firebase )
 ![Screenshot from 2020-12-23 07-49-12](https://user-images.githubusercontent.com/57977808/102949865-812ec600-44f3-11eb-8d75-9c39102c36dc.png)
